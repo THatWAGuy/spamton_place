@@ -17,6 +17,13 @@ return {
     scamready = function(cutscene, event)
 
         Game:setFlag("scamready", true)
+        Game:setFlag("rudinnexc", true)
+
+    end,
+
+    rudinnexc = function(cutscene, event)
+
+        Game:setFlag("rudinnexc", false)
 
     end
 

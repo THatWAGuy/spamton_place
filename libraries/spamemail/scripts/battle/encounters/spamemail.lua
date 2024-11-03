@@ -7,7 +7,7 @@ function Spamemail:init()
     self.text = "* What the [[FiftyPercentOff]]?!?!??!!"
 
     -- Battle music ("battle" is rude buster)
-    self.music = "nowgetshot"
+    self.music = "spamemail"
     -- Enables the purple grid battle background
     self.background = true
 

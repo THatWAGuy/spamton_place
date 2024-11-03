@@ -129,12 +129,6 @@
    <point/>
   </object>
   <object id="50" name="squeak" x="680" y="600" width="40" height="40"/>
-  <object id="56" name="enemy" x="480" y="320" width="40" height="40">
-   <properties>
-    <property name="actor" value="rudinnex"/>
-    <property name="encounter" value="rudinnex"/>
-   </properties>
-  </object>
  </objectgroup>
  <objectgroup color="#7f00ff" id="5" name="markers">
   <object id="20" name="spawn" x="300" y="250">

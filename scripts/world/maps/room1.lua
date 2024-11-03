@@ -520,22 +520,6 @@ return {
           rotation = 0,
           visible = true,
           properties = {}
-        },
-        {
-          id = 56,
-          name = "enemy",
-          type = "",
-          shape = "rectangle",
-          x = 480,
-          y = 320,
-          width = 40,
-          height = 40,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["actor"] = "rudinnex",
-            ["encounter"] = "rudinnex"
-          }
         }
       }
     },

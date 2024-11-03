@@ -1,18 +1,18 @@
-local DiamondsUp, super = Class(Wave)
+local DiamondsUpLots, super = Class(Wave)
 
-function DiamondsUp:init()
+function DiamondsUpLots:init()
 	super:init(self)
 	
-	self.time = 7
+	self.time = 10
 end
 
-function DiamondsUp:onStart()
-    self.timer:every(1/3, function()
+function DiamondsUpLots:onStart()
+    self.timer:every(1/15, function()
         local x = Utils.random(Game.battle.arena.left - 20, Game.battle.arena.right + 20)
         local y = Utils.random(Game.battle.arena.bottom + 50, Game.battle.arena.bottom + 100)
 
-        self:spawnBullet("rudinn/diamond_mix", x, y, math.rad(270))
+        self:spawnBullet("rudinn/diamond_mix", x, y, math.rad(270+love.math.random(-10,10)))
     end)
 end
 
-return DiamondsUp
+return DiamondsUpLots
